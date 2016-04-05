@@ -1,0 +1,95 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluescreen"
+    android:gravity="bottom"
+    tools:context=".MainActivity" >
+    
+    <ImageView
+        android:id="@+id/background"
+        android:contentDescription="@string/content_background"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+    	android:src="@drawable/background"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/ufo"
+        android:contentDescription="@string/content_ufo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ufo" />
+
+    <ImageView
+        android:id="@+id/rock"
+        android:contentDescription="@string/content_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rock1" />
+    
+    <ImageView
+        android:id="@+id/rock2"
+        android:contentDescription="@string/content_rock2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rock2" />
+    
+    <ImageView
+        android:id="@+id/rock3"
+        android:contentDescription="@string/content_rock3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rock2" />
+    
+    <ImageView
+        android:id="@+id/shields"
+        android:contentDescription="@string/content_shields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/full" />
+    
+    <ImageView
+        android:id="@+id/soundstate"
+        android:contentDescription="@string/content_soundstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="soundstate"
+        android:src="@drawable/sounds_on" />
+
+    <TextView
+        android:id="@+id/time"
+        android:contentDescription="@string/content_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/best"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:id="@+id/best"
+        android:contentDescription="@string/content_best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>
