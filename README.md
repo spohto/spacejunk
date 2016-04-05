@@ -1,2 +1,2 @@
 # spacejunk
-Android app
+An Eclipse project for Android
